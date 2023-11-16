@@ -14,9 +14,10 @@ public class Triangolo implements Forma {
         this.Height = height;
     }
     @Override
-    public void calcolaArea() {
+    public float calcolaArea() {
         int area = Base * Height / 2;
         System.out.println("L'area del triangolo è: " + area);
 
+        return 0;
     }
 }

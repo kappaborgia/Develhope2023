@@ -16,8 +16,9 @@ public class Rettangolo implements Forma {
     }
 
     @Override
-    public void calcolaArea() {
+    public float calcolaArea() {
         int area = base * height;
         System.out.println("L'area del rettangolo è: " + area);
+        return 0;
     }
 }

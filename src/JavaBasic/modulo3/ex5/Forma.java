@@ -5,5 +5,5 @@ calcolaArea(). Crea poi due sottoclassi Rettangolo e Triangolo che implementano 
 ed implementano il metodo per il calcolo dell'area.
  */
 public interface Forma {
-    public void calcolaArea();
+    public float calcolaArea();
 }

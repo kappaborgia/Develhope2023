@@ -12,6 +12,12 @@ public class ConfrontoStringhe {
         StringBuilder sb1 = new StringBuilder("Hello");
         StringBuilder sb2 = new StringBuilder("Hello");
 
+
+
+
+
+
+
         if (sb1.compareTo(sb2) == 0){
             System.out.println("Le due stringhe sono uguali");
 

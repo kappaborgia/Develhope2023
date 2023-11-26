@@ -1,4 +1,5 @@
-/* scrivi unn programma che contenga un metodo che crea un arrey e lo riempie con i numeri da 1 a 10 
+package JavaBasic.modulo1;
+/* scrivi unn programma che contenga un metodo che crea un arrey e lo riempie con i numeri da 1 a 10
  * e che calcoli la somma dei numeri contenuti nell'arrey inizializzato e la stampi a video.
  */
 

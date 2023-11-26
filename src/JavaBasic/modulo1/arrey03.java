@@ -1,4 +1,4 @@
-/* scrivere un programma che contenga un metodo che permetta di rimuovere gli elementi duplicati 
+package JavaBasic.modulo1;/* scrivere un programma che contenga un metodo che permetta di rimuovere gli elementi duplicati
  * in un arrey di interi. L'arrey ottenuto dovrà essere stampato
  */
 
@@ -31,8 +31,7 @@ public class arrey03 {
         }
 
         // Creiamo un nuovo array con la nuova lunghezza e copiamo i valori senza duplicati
-        int[] arraySenzaDuplicati = Arrays.copyOf(array, nuovaLunghezza);
 
-        return arraySenzaDuplicati;
+        return Arrays.copyOf(array, nuovaLunghezza);
     }
 }

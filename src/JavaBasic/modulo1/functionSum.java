@@ -1,4 +1,4 @@
-
+package JavaBasic.modulo1;
 //Definire una funzione che accetti in ingresso 2 interi e ne restituisca la somma.
 
 public class functionSum {
@@ -10,8 +10,7 @@ public class functionSum {
     }
 
     public static int somma (int number1, int number2){
-        int sumOfNumber = number1 + number2;
-        return sumOfNumber;
+        return number1 + number2;
     }
 }
 

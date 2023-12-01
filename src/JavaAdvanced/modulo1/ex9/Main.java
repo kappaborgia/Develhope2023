@@ -2,6 +2,7 @@ package JavaAdvanced.modulo1.ex9;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 
 /* Scrivere una funzione che restituisca un hashset riempito
 Creare un oggeto dello stesso tipo inserito nell'HashSet e popolarlo
@@ -13,26 +14,16 @@ public class Main {
     }
     public static void HashSet(){
         HashSet<String> lista = new HashSet<String>(Arrays.asList("Pane","Latte","Cereali"));
-        HashSet<String> newList = new HashSet<String>();
+        String pane = "Pane"; // Questo è un'oggetto !!
 
-        //newList = lista;
-        newList.add("Latte");
-        newList.add("coca cola");
-        newList.add("Pane");
-        System.out.println(lista);
-        System.out.println(newList);
-
-        for(String i : lista){
-            for(String j : newList){
-                if(j == i){
-                    newList.remove(j);
-                }
+        Iterator<String> iterator = lista.iterator();
+        while(iterator.hasNext()){
+            if(pane == iterator.next()){
+                lista.remove(pane);
             }
-        }
-        System.out.println();
-    }
 
-    /* probabilmente al posto del ciclo for devo usare iterator, Ma non riesco a convertire
-    * cio che ho scritto con il ciclo for in iterator */
+        }
+        System.out.println(lista);
+    }
 
 }

@@ -14,19 +14,22 @@ public class Main {
         printCharacter('k');
 
     }
-    public static void sumOfint(int number1, int number2){
+    public static int sumOfint(int number1, int number2){
         int result = number1 + number2;
         System.out.println(result);
+        return result;
     }
-    public static void pritnChar(char character){
+    public static char pritnChar(char character){
         System.out.println(character);
+        return character;
     }
-    public static void sumOfinteger(Integer number1, Integer number2){
-        int result = number1 + number2;
+    public static Integer sumOfinteger(Integer number1, Integer number2){
+        Integer result = number1 + number2;
         System.out.println(result);
+        return result;
     }
-    public static void printCharacter(Character letter){
+    public static Character printCharacter(Character letter){
         System.out.println(letter);
+        return letter;
     }
-
 }

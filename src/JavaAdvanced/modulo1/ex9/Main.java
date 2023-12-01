@@ -10,6 +10,7 @@ Scorrere il set, per ogni elemento verificare se è uguale all'oggetto creato ed
 Svuotare l'hashset, verificarlo e stampare il risultato*/
 public class Main {
     public static void main(String[] args) {
+
         HashSet();
     }
     public static void HashSet(){

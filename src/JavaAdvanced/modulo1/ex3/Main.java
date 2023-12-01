@@ -3,7 +3,9 @@ package JavaAdvanced.modulo1.ex3;
 * messaggio*/
 public class Main {
     public static void main(String[] args){
-
+        dividiNumero();
+    }
+    public static void dividiNumero(){
         try{
 
             int num = 4;
@@ -13,6 +15,7 @@ public class Main {
         } catch(ArithmeticException e){
             System.out.println("Non puoi dividere per zero");
         }
+
     }
 
 }

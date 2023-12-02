@@ -1,3 +1,5 @@
+package JavaBasic.modulo1;
+
 public class ASCIIvalue{
     public static void main(String[] args){
         char firstValue = 'k';

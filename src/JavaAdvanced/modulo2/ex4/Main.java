@@ -1,2 +1,4 @@
-package JavaAdvanced.modulo2.ex4;public class Main {
+package JavaAdvanced.modulo2.ex4;
+/*Creare 3 hashmap con 3 differenti metodi di inizializzazione e stampare il contenuto.*/
+public class Main {
 }

@@ -29,9 +29,9 @@ public class Main {
         lista.sort(Comparator.comparing(Studente::getName));
         System.out.println(lista);
 
+
         /* come faccio a non stampare le due parentesi quadre all inizio e alla fine???
         * Ho pensato ad usare StringBuilder, but se esiste un'altro metodo piu semplice....
         *  */
-
     }
 }

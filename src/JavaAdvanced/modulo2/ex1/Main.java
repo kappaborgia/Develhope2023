@@ -16,11 +16,11 @@ public class Main {
         List<Studente> lista = new ArrayList<Studente>();
         lista.add(alunno1);
         lista.add(alunno2);
-        System.out.println(lista);
+        System.out.println("Lista non aggiornata: " + lista);
+
         lista.add(alunno3);
         lista.add(alunno4);
-
-        System.out.println(lista);
+        System.out.println("Lista aggiornata: " + lista);
     }
 
 }

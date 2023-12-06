@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo2.ex2;
+package JavaAdvanced.modulo2_ListMapRecord.ex2;
 /*
 Creare una classe Student che accenti nel costruttore il parametro name (String e age Int)
 In questa classe avere i metodi pubblici per ottenere le informazioni.

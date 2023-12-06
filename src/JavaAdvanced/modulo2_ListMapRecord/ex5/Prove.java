@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo2.ex5;
+package JavaAdvanced.modulo2_ListMapRecord.ex5;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

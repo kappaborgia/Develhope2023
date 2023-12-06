@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo2.ex3;
+package JavaAdvanced.modulo2_ListMapRecord.ex3;
 
 import java.util.ArrayList;
 import java.util.List;

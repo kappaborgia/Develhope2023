@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo2.ex2;
+package JavaAdvanced.modulo2_ListMapRecord.ex2;
 
 import java.util.Arrays;
 import java.util.Comparator;

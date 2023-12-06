@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo2.ex1;
+package JavaAdvanced.modulo2_ListMapRecord.ex1;
 
 public class Studente {
     String name;

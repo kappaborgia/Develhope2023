@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo3.ex5;
+package JavaAdvanced.modulo3_DateTesting.ex5;
 /*Crea un oggetto data da questa stringa 2023-03-01T13:00:00Z
 Crea un secondo oggetto data da questa stringa 2024-03-01T13:00:00Z
 verificare che la prima data è precedente alla seconda

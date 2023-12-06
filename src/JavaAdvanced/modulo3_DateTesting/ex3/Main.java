@@ -1,4 +1,4 @@
-package JavaAdvanced.modulo3.ex3;
+package JavaAdvanced.modulo3_DateTesting.ex3;
 /*Crea un oggetto data da questa stringa 2023-03-01T13:00:00Z
 ottieni l'anno
 ottieni il mese

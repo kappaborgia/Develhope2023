@@ -9,18 +9,33 @@ import java.util.List;
 * aggiungere 4 elementi alla collezione e stampare la collezione aggiornata in console*/
 public class Main {
     public static void main(String[] args) {
-        Studente alunno1 = new Studente("Davide", 14);
-        Studente alunno2 = new Studente("Samantha", 34);
+        List<Studente> lista = createList();
+
+        System.out.println("Lista non aggiornata: " + lista);
         Studente alunno3 = new Studente("Samuel", 40);
         Studente alunno4 = new Studente("Gioia", 23);
-        List<Studente> lista = new ArrayList<Studente>();
-        lista.add(alunno1);
-        lista.add(alunno2);
-        System.out.println("Lista non aggiornata: " + lista);
 
-        lista.add(alunno3);
-        lista.add(alunno4);
-        System.out.println("Lista aggiornata: " + lista);
+        //System.out.println("Lista aggiornata" + addStudent(alunno3, lista));
+        List<Studente> list2 = addStudent(alunno3,lista);
+
+        List<Studente> list3 = addStudent(alunno4,list2);
+        System.out.println("Lista aggiornata 2" + list3);
+
+    }
+    public static List<Studente> createList(){
+        Studente alunno1 = new Studente("Davide", 14);
+        Studente alunno2 = new Studente("Samantha", 34);
+        List<Studente> list = new ArrayList<>();
+        list.add(alunno1);
+        list.add(alunno2);
+        return list;
+
+    }
+    public static List<Studente> addStudent(Studente studente, List<Studente> lista ){
+        lista.add(studente);
+        return lista;
+
+
     }
 
 }

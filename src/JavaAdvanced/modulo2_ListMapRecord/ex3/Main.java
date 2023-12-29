@@ -10,7 +10,7 @@ Aggiungere un elemento al primo posto della lista e uno all'ultimo
 Stampare la collezione aggiornata*/
 public class Main {
     public static void main(String[] args) {
-        Fruit frutta = new Fruit("Mela");
+        Fruit frutta = new Fruit("Mela"); 
         Fruit frutta2 = new Fruit("Pera");
         Fruit frutta3 = new Fruit("Albicocca");
         List<Fruit> lista = new ArrayList<Fruit>();
